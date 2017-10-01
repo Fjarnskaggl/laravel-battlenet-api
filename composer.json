@@ -1,5 +1,5 @@
 {
-    "name": "Fjarnskaggl/laravel-battlenet-api",
+    "name": "fjarnskaggl/laravel-battlenet-api",
     "description": "Laravel 5 client for Battle.net API",
     "keywords": [
         "laravel",
