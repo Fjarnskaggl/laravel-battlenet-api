@@ -7,20 +7,8 @@
         "battlenet",
         "api"
     ],
-    "homepage": "https://github.com/xklusive/laravel-battlenet-api",
+    "homepage": "https://github.com/fjarnskaggl/laravel-battlenet-api",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Guillaume Meheust",
-            "email": "xklusive91@gmail.com",
-            "role": "Developer"
-        },
-        {
-            "name": "Dániel Hagyárossy",
-            "email": "d.hagyarossy@sapstar.eu",
-            "role": "Developer"  
-        }
-    ],
     "require": {
         "guzzlehttp/guzzle": "^6.2"
     },
