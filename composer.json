@@ -1,5 +1,5 @@
 {
-    "name": "fjarnskaggl/laravel-battlenet-api",
+    "name": "xklusive/laravel-battlenet-api",
     "description": "Laravel 5 client for Battle.net API",
     "keywords": [
         "laravel",
@@ -7,7 +7,7 @@
         "battlenet",
         "api"
     ],
-    "homepage": "https://github.com/fjarnskaggl/laravel-battlenet-api",
+    "homepage": "https://github.com/xklusive/laravel-battlenet-api",
     "license": "MIT",
     "require": {
         "guzzlehttp/guzzle": "^6.2"
