@@ -1,5 +1,5 @@
 {
-    "name": "xklusive/laravel-battlenet-api",
+    "name": "Fjarnskaggl/laravel-battlenet-api",
     "description": "Laravel 5 client for Battle.net API",
     "keywords": [
         "laravel",
@@ -22,27 +22,11 @@
         }
     ],
     "require": {
-        "php" : ">=7.0.0",
-        "laravel/framework": "^5.5.0",
-        "illuminate/contracts": "^5.5.0",
         "guzzlehttp/guzzle": "^6.2"
     },
     "autoload": {
         "psr-4": {
             "Xklusive\\BattlenetApi\\": "src"
         }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Xklusive\\BattlenetApi\\Test\\": "tests"
-        }
-    },
-    "require-dev": {
-        "phpunit/phpunit" : "~6.0",
-        "scrutinizer/ocular": "~1.1",
-        "orchestra/testbench": "^3.1.4"
-    },
-    "scripts": {
-        "test": "phpunit"
     }
 }
