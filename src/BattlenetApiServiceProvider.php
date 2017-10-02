@@ -14,14 +14,15 @@ class BattlenetApiServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->publishes([
-            __DIR__.'/../resources/config/battlenet-api.php' => config_path('battlenet-api.php'),
-        ], 'config');
+        $configPath = __DIR__.'/../resources/config/battlenet-api.php';
+        if (function_exists('config_path')) {
+            $publishPath = config_path('battlenet-api.php');
+        } else {
+            $publishPath = base_path('config/battlenet-api.php');
+        }
 
-        $this->mergeConfigFrom(
-            __DIR__.'/../resources/config/battlenet-api.php',
-            'battlenet-api'
-        );
+        $this->publishes([$configPath => $publishPath], 'config');
+        $this->mergeConfigFrom($configPath, 'battlenet-api');
     }
 
     /**
